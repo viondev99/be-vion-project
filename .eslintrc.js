@@ -25,5 +25,12 @@ module.exports = {
     'no-console': ['error'],
     'no-return-await': ['error'],
     'no-irregular-whitespace': ['error'],
+
+    'prettier/prettier': [
+      'error',
+      {
+        endOfLine: 'auto',
+      },
+    ],
   },
 };
